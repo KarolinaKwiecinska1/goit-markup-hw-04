@@ -19,6 +19,16 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+.section {
+  padding: 94px 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   color: var(--color-black);
@@ -38,9 +48,29 @@ body {
 .blue-logo .link:visited {
   color: var(--color-blue);
 }
+.header {
+  width: 1200px;
+  border-bottom: 1px solid #ececec;
+  margin: 0 auto;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+}
 
 .nav-list {
-  list-style: none;
+  display: flex;
+  gap: 46px;
+  margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.contact-list {
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
 }
 
 .nav-links {
@@ -83,7 +113,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding: 200px 0px 280px 0px;
+  width: 100%;
+  padding-bottom: 200px;
 }
 
 h1 {
@@ -92,6 +123,11 @@ h1 {
   font-size: 44px;
   line-height: 1.365;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .blue-button {
@@ -108,6 +144,10 @@ h1 {
   height: 50px;
   margin-left: 700px;
   margin-right: 700px;
+  padding: 10px 41px 10px 42px;
+}
+.section-offer {
+  padding: 94px 0 0 0;
 }
 
 .offer-header {
@@ -117,6 +157,7 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-grey-nav);
+  margin: 0 0 10px 0;
 }
 
 .offer-text {
@@ -129,7 +170,7 @@ h1 {
   display: flex;
   list-style: none;
   flex-direction: row;
-  margin: 94px 0 94px 0;
+  margin: 0;
   gap: 30px;
   justify-content: center;
 }
@@ -141,15 +182,18 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-grey-nav);
+  margin: 0 0 50px 0;
 }
+
 .offer-img-list {
   display: flex;
   list-style: none;
   flex-direction: row;
-  margin: 94px 0 94px 0;
   gap: 30px;
   justify-content: center;
+  padding: 0;
 }
+
 .light-background {
   background-color: var(--color-medium-grey);
   padding: 94px 0;
@@ -189,10 +233,17 @@ h1 {
   color: var(--color-grey);
   margin-bottom: 30px;
 }
+
 footer {
   background: var(--color-dark-grey);
   height: 252px;
 }
+
+.footer-box {
+  padding-top: 66px;
+  padding-bottom: 62px;
+}
+
 .white-logo {
   color: var(--color-white);
 }
@@ -265,10 +316,25 @@ address {
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 2;
-  margin: 20px 0 4px 24px;
+  padding: 20px 24px 4px 24px;
+  margin: 0px;
 }
 .portfolio-item-text {
   line-height: 1.88;
   font-size: 16px;
-  margin: 0 0 0 24px;
+  padding: 0px 24px 20px 24px;
+  margin: 0px;
+}
+
+p {
+  line-height: 1.71428571;
+  color: var(--color-grey);
+  margin: 0;
+  margin: 0 0 10px 0;
+}
+
+.portfolio-item {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
